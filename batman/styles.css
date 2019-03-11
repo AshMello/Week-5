@@ -1,0 +1,35 @@
+#heading {
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+#movieList, #allInfo {
+    font-family: 'Open Sans', sans-serif;
+    font-size:12px;
+}
+
+#everything {
+    background-color: black;
+    color: yellow;
+
+}
+
+#movieList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+#pics {
+    width: 200px;
+    height:300px;
+
+}
+
+#allInfo {
+    text-align: center;
+    font-size: 24px;
+}
