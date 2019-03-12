@@ -1,0 +1,33 @@
+#bodyAll {
+    background-image: url("cup.jpg");
+    background-size: cover;
+}
+
+#displaydrink {
+    color:white;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+#Create {
+    width: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 54px;
+    background-color: rgb(59,40,31);
+}
+
+#bodyAll {
+    text-align: center;
+}
+
+#all {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
