@@ -1,0 +1,45 @@
+html {
+    background-image: url('groceries.jpg');
+    background-size:cover;
+}
+
+#header {
+    text-align: center;
+    font-size: 48px;
+    background-color: lightgrey;
+    height: 100px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(61, 99, 2);
+}
+
+#storeDisplay {
+    list-style: none;
+    text-align: center;
+    background-color: lightgrey;
+    /* opacity: 0.7; */
+    margin-left: 15%;
+    margin-right: 15%;
+    color: rgb(61, 99, 2);
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+#inputStyle {
+    text-align: center;
+}
+
+button {
+    background-color: lightgrey;
+    border: 2px solid rgb(61, 99, 2);
+    color: darkgoldenrod;
+    height: 24px;
+}
+
+#storeTxt {
+    width: 200px;
+    height: 50px;
+    background-color: darkgray;
+    border: none;
+    font-size: 24px;
+    color: white;
+}

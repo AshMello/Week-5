@@ -9,9 +9,9 @@ let delInfo = document.getElementById("delInfo")
 let viewBtn = document.getElementById("viewBtn")
 let viewInfo = document.getElementById("viewInfo")
 
-function refreshPage(timeoutPeriod) {
-    setTimeout('location.reload(true);', timeoutPeriod)
-}
+// function refreshPage(timeoutPeriod) {
+//     setTimeout('location.reload(true);', timeoutPeriod)
+// }
 
 function viewAll() {
     fetch('http://dc-coffeerun.herokuapp.com/api/coffeeorders/')

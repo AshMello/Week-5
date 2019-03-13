@@ -1,0 +1,26 @@
+<html>
+    <head><link rel = "stylesheet" type = "text/css" href = "styles.css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto" rel="stylesheet">
+    </head>
+    <body>
+        <h1 id="header">Super Shopper App</h1>
+        <div id="inputStyle">
+        <input id="storeTxt" type="text" placeholder="Enter Store"><button id="storeBtn">Enter</button>
+        </div>
+        <ul id="storeList"></ul>
+    </body>
+
+    <script src="https://www.gstatic.com/firebasejs/5.8.6/firebase.js"></script>
+<script>
+  var config = {
+    apiKey: "AIzaSyDVkkoFwiny8Ms980arKg357wJD6lDQHMo",
+    authDomain: "grocery-store-6a3ff.firebaseapp.com",
+    databaseURL: "https://grocery-store-6a3ff.firebaseio.com",
+    projectId: "grocery-store-6a3ff",
+    storageBucket: "",
+    messagingSenderId: "82658553329"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="app.js"></script>
+</html>
